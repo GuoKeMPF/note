@@ -1,5 +1,5 @@
 ---
-title: dumi - 为组件开发场景而生的文档工具
+title: 过客的笔记
 order: 10
 hero:
   title: dumi
@@ -26,32 +26,5 @@ features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/f093e060-726e-471c-a53e-e988ed3f560c/kj9t9sk7_w144_h144.png
     title: 资产数据化能力
     desc: 一行命令将组件资产数据化，标准化的资产数据可与下游生产力工具串联
-footer: Open-source MIT Licensed | Copyright © 2019-present<br />Powered by self
+footer: 小巷阴雨夜微凉，孤舟江海寄余生。
 ---
-
-## 轻松上手
-
-手动创建第一篇文档
-
-```bash
-// 创建组件开发的目录
-$ mkdir library && cd library
-
-// 安装 dumi
-$ npm i dumi
-
-// 创建文档
-$ mkdir docs && echo '# Hello dumi!' > docs/index.md
-
-// 预览文档
-$ npx dumi dev
-```
-
-## 反馈与共建
-
-请访问 [GitHub](https://github.com/umijs/dumi) 或加入讨论群：
-
-<div>
-  <img data-type="dingtalk" src="https://gw.alipayobjects.com/zos/bmw-prod/ec249703-be12-416c-8f33-297e47d9439c/kjy5ls84_w1004_h1346.png" width="300" />
-  <img data-type="wechat" src="https://gw.alipayobjects.com/zos/bmw-prod/c18bc2a5-719a-48ca-b225-c79ef88bfb43/k7m10ymd_w1004_h1346.jpeg" width="300" />
-</div>

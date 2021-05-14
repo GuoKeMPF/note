@@ -1,5 +1,5 @@
 ---
-title: dumi - A doc tool can assist you to develop libraries & write docs.
+title: Guo Ke‘ note.
 order: 10
 hero:
   title: dumi
@@ -26,32 +26,5 @@ features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/f093e060-726e-471c-a53e-e988ed3f560c/kj9t9sk7_w144_h144.png
     title: Asset dataization capabilities
     desc: One-line command digitizes component assets, and standardized asset data can be connected with downstream productivity tools
-footer: Open-source MIT Licensed | Copyright © 2019-present<br />Powered by self
+footer: 小巷阴雨夜微凉，孤舟江海寄余生。
 ---
-
-## Getting Started
-
-Create first doc in manual way
-
-```bash
-// Create dir for libraries
-$ mkdir library && cd library
-
-// Install dumi
-$ npm i dumi
-
-// Create docs
-$ mkdir docs && echo '# Hello dumi!' > docs/index.md
-
-// Preview docs
-$ npx dumi dev
-```
-
-## Feedback
-
-Please visit [GitHub](https://github.com/umijs/dumi) or join the discuss group
-
-<div>
-  <img data-type="dingtalk" src="https://gw.alipayobjects.com/zos/bmw-prod/ec249703-be12-416c-8f33-297e47d9439c/kjy5ls84_w1004_h1346.png" width="300" />
-  <img data-type="wechat" src="https://gw.alipayobjects.com/zos/bmw-prod/c18bc2a5-719a-48ca-b225-c79ef88bfb43/k7m10ymd_w1004_h1346.jpeg" width="300" />
-</div>
