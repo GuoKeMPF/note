@@ -1,4 +1,4 @@
-import { defineConfig } from 'dumi';
+import { defineConfig, IApi } from 'dumi';
 
 const repo = 'dumi';
 
@@ -12,10 +12,14 @@ export default defineConfig({
   devServer: {
     port: 9000,
   },
-  ssr: {},
+  ssr: {
+    // 更多配置
+    removeWindowInitialProps: true,
+    mode: 'stream',
+    staticMarkup: true,
+  },
   exportStatic: {},
   hash: true,
-  dynamicImport: {},
   // Because of using GitHub Pages
   base: `/${repo}/`,
   publicPath: `/${repo}/`,
