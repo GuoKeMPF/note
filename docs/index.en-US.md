@@ -6,7 +6,7 @@ hero:
   desc: A Note form a web developer.
   actions:
     - text: Start
-      link: /components/foo
+      link: /en-US/components/foo
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
     title: Out of the box

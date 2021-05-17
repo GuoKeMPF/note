@@ -1,4 +1,4 @@
-import { defineConfig, IApi } from 'dumi';
+import { defineConfig } from 'dumi';
 
 const repo = 'dumi';
 
@@ -7,11 +7,15 @@ export default defineConfig({
   favicon: '/images/logo.png',
   logo: '/images/logo.png',
   outputPath: 'docs-dist',
-
   mode: 'site',
   devServer: {
     port: 9000,
   },
+  locales: [
+    ['zh-CN', '中文'],
+    ['en-US', 'English'],
+  ],
+  fastRefresh: {},
   ssr: {
     // 更多配置
     removeWindowInitialProps: true,
