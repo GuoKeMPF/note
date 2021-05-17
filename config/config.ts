@@ -7,15 +7,23 @@ export default defineConfig({
   favicon: '/images/logo.png',
   logo: '/images/logo.png',
   outputPath: 'docs-dist',
-
   mode: 'site',
   devServer: {
     port: 9000,
   },
-  ssr: {},
+  locales: [
+    ['zh-CN', '中文'],
+    ['en-US', 'English'],
+  ],
+  fastRefresh: {},
+  ssr: {
+    // 更多配置
+    removeWindowInitialProps: true,
+    mode: 'stream',
+    staticMarkup: true,
+  },
   exportStatic: {},
   hash: true,
-  dynamicImport: {},
   // Because of using GitHub Pages
   base: `/${repo}/`,
   publicPath: `/${repo}/`,

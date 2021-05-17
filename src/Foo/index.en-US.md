@@ -1,7 +1,7 @@
 ---
 nav:
-  title: Components
-  path: /components
+  title: Catalog
+  path: /catalog
 ---
 
 ## Foo
