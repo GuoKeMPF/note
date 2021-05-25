@@ -5,7 +5,7 @@ const repo = 'note';
 export default defineConfig({
   title: repo,
   favicon: '/images/logo.png',
-  logo: '/images/logo.png',
+  logo: `/${repo}/images/logo.png`,
   outputPath: 'docs-dist',
   mode: 'site',
   devServer: {
