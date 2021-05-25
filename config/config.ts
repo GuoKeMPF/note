@@ -13,8 +13,8 @@ export default defineConfig({
     port: 9000,
   },
   locales: [
-    ['zh-CN', '中文'],
-    ['en-US', 'English'],
+    // ['zh-CN', '中文'],
+    // ['en-US', 'English'],
   ],
   fastRefresh: {},
   ssr: {
