@@ -1,6 +1,7 @@
 ---
-title: 字符串
-path: /JavaScript/String/
+group: JavaScript
+  title: 字符串
+  path: /JavaScript/String/
 ---
 
 ```ts

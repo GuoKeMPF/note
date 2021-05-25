@@ -12,10 +12,7 @@ export default defineConfig({
   devServer: {
     port: 9000,
   },
-  locales: [
-    // ['zh-CN', '中文'],
-    // ['en-US', 'English'],
-  ],
+  locales: [],
   fastRefresh: {},
   ssr: {
     // 更多配置
