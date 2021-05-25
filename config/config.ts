@@ -2,6 +2,7 @@ import { defineConfig } from 'dumi';
 
 const repo = 'note';
 
+// more config: https://d.umijs.org/config
 export default defineConfig({
   title: repo,
   favicon: '/images/logo.png',
@@ -34,5 +35,4 @@ export default defineConfig({
       path: 'https://github.com/GuoKeMPF/note.git',
     },
   ],
-  // more config: https://d.umijs.org/config
 });
