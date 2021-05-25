@@ -1,6 +1,6 @@
 import { defineConfig } from 'dumi';
 
-const repo = 'dumi';
+const repo = 'note';
 
 export default defineConfig({
   title: repo,
@@ -31,7 +31,7 @@ export default defineConfig({
     null,
     {
       title: 'GitHub',
-      path: 'https://github.com/GuoKeMPF/dumi.git',
+      path: 'https://github.com/GuoKeMPF/note.git',
     },
   ],
   // more config: https://d.umijs.org/config
