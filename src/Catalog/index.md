@@ -2,10 +2,11 @@
 nav:
   title: 目录
   path: /catalog
+  order: 1
 ---
 
 # 目录
 
-## JavaScript
+- [JavaScript](/javascript)
 
-### [字符串](/JavaScript/String/)
+  - [字符串](/javascript/string/)

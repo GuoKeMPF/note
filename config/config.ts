@@ -1,4 +1,6 @@
 import { defineConfig } from 'dumi';
+import navs from './navs';
+import menus from './menus';
 
 const repo = 'note';
 
@@ -12,7 +14,7 @@ export default defineConfig({
   devServer: {
     port: 9000,
   },
-  locales: [],
+  locales: [['zh-CN', '中文']],
   fastRefresh: {},
   ssr: {
     // 更多配置
@@ -21,15 +23,20 @@ export default defineConfig({
     staticMarkup: true,
   },
   exportStatic: {},
+  extraBabelPlugins: [
+    [
+      'import',
+      {
+        libraryName: 'antd',
+        libraryDirectory: 'es',
+        style: 'css',
+      },
+    ],
+  ],
   hash: true,
   // Because of using GitHub Pages
   base: `/${repo}/`,
   publicPath: `/${repo}/`,
-  navs: [
-    null,
-    {
-      title: 'GitHub',
-      path: 'https://github.com/GuoKeMPF/note.git',
-    },
-  ],
+  navs,
+  menus,
 });
