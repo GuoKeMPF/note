@@ -6,5 +6,3 @@ toc: menu
 order: 1
 title: JavaScript
 ---
-
-<!-- path: /javascript -->
