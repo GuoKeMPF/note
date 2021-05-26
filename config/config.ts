@@ -7,7 +7,7 @@ const repo = 'note';
 // more config: https://d.umijs.org/config
 export default defineConfig({
   title: 'Note',
-  favicon: '/images/logo.png',
+  favicon: `/${repo}/images/logo.png`,
   logo: `/${repo}/images/logo.png`,
   outputPath: 'docs-dist',
   mode: 'site',
