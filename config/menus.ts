@@ -26,7 +26,11 @@ const menus = {
     {
       title: 'JavaScript',
       path: '/javascript',
-      children: ['Javascript/index.md', 'Javascript/String/index.md'],
+      children: [
+        'Javascript/index.md',
+        'Javascript/String/index.md',
+        'Javascript/Array/index.md',
+      ],
     },
   ],
 };

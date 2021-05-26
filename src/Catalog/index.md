@@ -1,7 +1,6 @@
 ---
 nav:
   title: 目录
-  path: /catalog
   order: 1
 ---
 
