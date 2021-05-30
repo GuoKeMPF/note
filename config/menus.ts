@@ -30,6 +30,7 @@ const menus = {
         'Javascript/index.md',
         'Javascript/String/index.md',
         'Javascript/Array/index.md',
+        'Javascript/Number/index.md',
       ],
     },
   ],
