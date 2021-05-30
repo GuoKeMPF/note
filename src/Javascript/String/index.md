@@ -1,5 +1,5 @@
 ---
-title: 字符串
+title: String
 order: 1
 toc: menu
 ---
@@ -26,6 +26,8 @@ const substrStr = str.substr(5, 6);
 console.log('substrStr', substrStr); // fghijk
 console.log('str', str); // abcdefghijklm n
 ```
+
+---
 
 ## substring
 
@@ -55,6 +57,8 @@ console.log('substringStr', substringStr); // cdef
 console.log('str', str); // abcdefghijklm n
 ```
 
+---
+
 ## slice
 
 `string.slice(beginIndex,endIndex)` 方法提取某个字符串的一部分，并返回一个新的字符串，且不会改动原字符串。
@@ -78,6 +82,8 @@ const sliceStr = str.slice(5, -4);
 console.log('sliceStr', sliceStr); // fghijk
 console.log('str', str); // abcdefghijklm n
 ```
+
+---
 
 ## split
 

@@ -7,5 +7,3 @@ nav:
 # 目录
 
 - [JavaScript](/javascript)
-
-  - [字符串](/javascript/string/)
