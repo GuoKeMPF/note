@@ -121,6 +121,34 @@ console.log('arr', arr); // [ 1, 2, 3, 4, 5, 6 ]
 
 ## 不会改变原数组
 
+### flat
+
+`Array.flat(depth)` 数组扁平化处理，并返回扁平化处理后的数组。
+
+#### 参数
+
+**depth**：扁平化处理的深度。默认是 1，如果希望一直处理下去则可以设置成`Infinity`
+
+#### 返回值
+
+扁平化处理后的数组。
+
+```ts
+const arr = [0, 1, 2, [3, 4, [5, 6, [7, [8, 9]]]]];
+
+const res1 = arr.flat();
+const res2 = arr.flat(Infinity);
+
+console.log('arr', arr);
+// arr [0, 1, 2, [3, 4, [5, 6, [7, [8, 9]]]]]
+console.log('res1', res1);
+// res1 [0, 1, 2, 3, 4, [5, 6, [7, [8, 9]]]]
+console.log('res2', res2);
+// res2 res2 [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+---
+
 ### concant
 
 `Array.concat(array1, array2, ...)` 合并两个或者多个值或数组，并返回合并后的数组。
